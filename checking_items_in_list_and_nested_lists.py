@@ -1,3 +1,6 @@
+# In this you and give a list or nested list and target item the you want to fetch 
+# Specify your own list in variable "my_given " and a target that you to fetch
+
 def my_list(given, target):
     for item in given:
         if isinstance(item, list):
