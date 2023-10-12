@@ -1,3 +1,4 @@
+# This helps you to find the greatest common factor between two numbers.
 
 def gcd(m,n):
     
