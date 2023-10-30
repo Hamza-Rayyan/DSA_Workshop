@@ -1,5 +1,4 @@
-# This is merge sort alg which takesa list L and the two more
-# parameters the left and right most positiona and returns a single sorted list.
+# This is merge sort alg which takes a list 'L' and two more parameters the 'left' and 'right' most positions and returns a single sorted list.
 # why merge_sort? its 1000 times faster than selection and insertion sort.
 
 def mergesort(L,left,right):
@@ -23,7 +22,6 @@ def merge(L,R):
         elif j == n:
             c.append(L[i])
             i +=1
-
         elif L[i] <= R[j]:
             c.append(L[i])
             i = i + 1
