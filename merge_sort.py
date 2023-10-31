@@ -15,7 +15,11 @@ def mergesort(L,left,right):
 def merge(L,R):
     (c,m,n) = ([],len(L),len(R))
     (i,j) = (0,0)
-    while i+j < m+n:
+    while i < m and j < n:
+        if  L[i] == R[j]:
+            c.append(L[i])
+            j = j + 1
+            i= i+1
         if i == m:
             c.append(R[j])
             j = j + 1
